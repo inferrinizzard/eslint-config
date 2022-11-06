@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/inferrinizzard/eslint-config.git",
   "author": "inferrinizzard <inferrinizzard@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.27.0",
+    "prettier": "^2.7.1"
+  }
 }
