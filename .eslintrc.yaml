@@ -5,3 +5,4 @@ extends:
   - 'eslint-configs/import'
   - 'eslint-configs/javascript'
   - 'eslint-configs/react'
+  - 'eslint-configs/typescript'
