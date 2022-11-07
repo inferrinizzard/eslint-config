@@ -5,6 +5,7 @@ extends:
   - 'eslint-configs/canonical'
   - 'eslint-configs/import'
   - 'eslint-configs/javascript'
+  - 'eslint-configs/jest'
   - 'eslint-configs/react'
   - 'eslint-configs/typescript'
 
