@@ -6,3 +6,5 @@ extends:
   - 'eslint-configs/javascript'
   - 'eslint-configs/react'
   - 'eslint-configs/typescript'
+
+  - 'plugin:json/recommended-with-comments'
