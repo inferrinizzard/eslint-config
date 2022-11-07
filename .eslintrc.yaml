@@ -2,6 +2,7 @@ env:
   node: true
   es6: true
 extends:
+  - 'eslint-configs/canonical'
   - 'eslint-configs/import'
   - 'eslint-configs/javascript'
   - 'eslint-configs/react'

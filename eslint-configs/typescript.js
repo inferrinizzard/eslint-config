@@ -3,13 +3,13 @@ module.exports = {
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
 	],
-	// plugins: ['canonical'],
+	plugins: ['canonical'],
 	parserOptions: {
 		tsconfigRootDir: './',
 		project: ['./tsconfig.json'],
 	},
 	rules: {
-		// 'canonical/prefer-inline-type-import': 'error',
+		'canonical/prefer-inline-type-import': 'error',
 		'@typescript-eslint/ban-ts-comment': 'error',
 		'@typescript-eslint/ban-types': 'error',
 		'@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
