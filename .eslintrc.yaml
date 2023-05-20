@@ -10,3 +10,5 @@ extends:
   - 'eslint-configs/vitest'
 
   - 'plugin:json/recommended-with-comments'
+parserOptions:
+  tsconfigRootDir: __dirname
