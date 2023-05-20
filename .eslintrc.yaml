@@ -7,5 +7,6 @@ extends:
   - 'eslint-configs/javascript'
   - 'eslint-configs/react'
   - 'eslint-configs/typescript'
+  - 'eslint-configs/vitest'
 
   - 'plugin:json/recommended-with-comments'
