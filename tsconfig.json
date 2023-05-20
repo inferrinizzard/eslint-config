@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
     "downlevelIteration": true
   },
   "exclude": ["node_modules"]
