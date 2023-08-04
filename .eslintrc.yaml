@@ -2,12 +2,12 @@ env:
   node: true
   es6: true
 extends:
-  - 'eslint-configs/canonical'
-  - 'eslint-configs/import'
-  - 'eslint-configs/javascript'
-  - 'eslint-configs/react'
-  - 'eslint-configs/typescript'
-  - 'eslint-configs/vitest'
+  - 'eslint-config/config/canonical'
+  - 'eslint-config/config/import'
+  - 'eslint-config/config/javascript'
+  - 'eslint-config/config/react'
+  - 'eslint-config/config/typescript'
+  - 'eslint-config/config/vitest'
 
   - 'plugin:json/recommended-with-comments'
 parserOptions:

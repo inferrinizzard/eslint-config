@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@inferrinizzard/eslint-config",
   "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/inferrinizzard/eslint-config.git",
