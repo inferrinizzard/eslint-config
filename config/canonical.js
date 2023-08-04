@@ -16,7 +16,7 @@ module.exports = {
       },
     },
     {
-      extends: ['canonical/jest'],
+      extends: ['canonical/vitest'],
       files: '*.test.{ts,tsx}',
       parserOptions: {
         project: './tsconfig.json',
