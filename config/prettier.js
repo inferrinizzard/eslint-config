@@ -1,3 +1,10 @@
+const prettierOptions = {
+  singleQuote: true,
+  quoteProps: 'consistent',
+  trailingComma: 'all',
+  bracketSameLine: true,
+};
+
 const spaceBeforeParenConfig = [
   'error',
   {
@@ -8,22 +15,21 @@ const spaceBeforeParenConfig = [
 ];
 
 module.exports = {
+  extends: ['plugin:prettier/recommended', 'prettier'],
+  plugins: ['prettier'],
+
+  rules: {
+    'space-before-function-paren': spaceBeforeParenConfig,
+    'prettier/prettier': ['error', prettierOptions],
+  },
+
   overrides: [
     {
       files: ['**/*.{ts,tsx}'],
-      extends: ['prettier/@typescript-eslint', 'plugin:prettier/recommended'],
-      plugins: ['prettier'],
+      extends: ['prettier/@typescript-eslint'],
       rules: {
-        'space-before-function-paren': spaceBeforeParenConfig,
-        '@typescript-eslint/space-before-function-paren': spaceBeforeParenConfig,
-      },
-    },
-    {
-      files: ['**/*.{js,jsx}'],
-      extends: ['plugin:prettier/recommended'],
-      plugins: ['prettier'],
-      rules: {
-        'space-before-function-paren': spaceBeforeParenConfig,
+        '@typescript-eslint/space-before-function-paren':
+          spaceBeforeParenConfig,
       },
     },
   ],
