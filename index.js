@@ -7,8 +7,5 @@ module.exports = {
     "./config/react",
     "./config/typescript",
     "./config/vitest",
-
-    "plugin:json/recommended-with-comments",
   ],
-  parserOptions: { tsconfigRootDir: __dirname },
 };
