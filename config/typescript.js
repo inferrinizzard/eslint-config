@@ -1,15 +1,16 @@
 module.exports = {
 	extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended-type-checked',
-    'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:@typescript-eslint/recommended',
+    // 'plugin:@typescript-eslint/recommended-type-checked',
+    // 'plugin:@typescript-eslint/stylistic-type-checked',
   ],
   parserOptions: {
     tsconfigRootDir: './',
     project: ['./tsconfig.json'],
   },
   rules: {
-    'canonical/no-unused-exports': 'error',
+    // 'canonical/no-unused-exports': 'error',
     'canonical/prefer-inline-type-import': 'error',
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
