@@ -15,6 +15,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
+    "eslint-config-canonical": "^41.1.7",
     "eslint-config-prettier": "^6.10.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-canonical": "^3.1.0",
