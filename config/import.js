@@ -31,6 +31,7 @@ module.exports = {
     'import/no-cycle': 'error',
     'import/no-duplicates': 'error',
     'import/no-extraneous-dependencies': 'error',
+    'import/no-named-as-default': 'off',
     'import/no-useless-path-segments': 'error',
   },
 };
