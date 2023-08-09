@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
+    // 'plugin:@typescript-eslint/recommended',
     // 'plugin:@typescript-eslint/recommended-type-checked',
     // 'plugin:@typescript-eslint/stylistic-type-checked',
     'canonical/typescript',
@@ -12,7 +12,7 @@ module.exports = {
     project: ['./tsconfig.json'],
   },
   rules: {
-    // 'canonical/no-unused-exports': 'error',
+    // 'canonical/no-unused-exports': ['error', { tsConfigPath: './tsconfig.json' }],
     'canonical/prefer-inline-type-import': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/consistent-type-imports': [
@@ -29,6 +29,7 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': 'warn',
     '@typescript-eslint/no-useless-empty-export': 'error',
     '@typescript-eslint/prefer-readonly': 'warn',
+    '@typescript-eslint/prefer-reduce-type-parameter': 'off',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/unified-signatures': 'error',
   },
