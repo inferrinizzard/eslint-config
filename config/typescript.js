@@ -15,6 +15,7 @@ module.exports = {
     // 'canonical/no-unused-exports': 'error',
     'canonical/prefer-inline-type-import': 'error',
     '@typescript-eslint/consistent-type-exports': 'error',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/consistent-type-imports': [
       'error',
       { prefer: 'type-imports' },
