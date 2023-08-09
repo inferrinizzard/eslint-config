@@ -20,6 +20,12 @@ module.exports = {
       { prefer: 'type-imports' },
     ],
     '@typescript-eslint/explicit-function-return-type': 'warn',
+    '@typescript-eslint/no-misused-promises': [
+      'error',
+      {
+        checksVoidReturn: false,
+      },
+    ],
     '@typescript-eslint/naming-convention': 'error',
     '@typescript-eslint/no-empty-interface': 'warn',
     '@typescript-eslint/no-unused-vars': [

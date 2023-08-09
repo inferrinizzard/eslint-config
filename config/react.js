@@ -5,7 +5,10 @@ module.exports = {
     'canonical/react',
   ],
   rules: {
-    'react/no-did-mount-set-state': 'error',
+    'react/forbid-component-props': 'off',
     'react/jsx-curly-brace-presence': ['error', { children: 'always' }],
+    'react/no-did-mount-set-state': 'error',
+    'react/no-array-index-key': 'off',
+    'react/prop-types': 'off',
   },
 };
