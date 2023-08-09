@@ -13,7 +13,19 @@ module.exports = {
     ],
     'no-duplicate-imports': 'error',
     'import/first': 'error',
-    'import/order': ['error', { 'newlines-between': 'always' }],
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        'pathGroups': [
+          {
+            pattern: '@/**',
+            group: 'internal',
+            position: 'before',
+          },
+        ],
+      },
+    ],
     // "import/newline-after-import": ["error", { count: 2 }],
     'import/no-absolute-path': 'error',
     'import/no-cycle': 'error',
