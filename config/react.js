@@ -6,5 +6,6 @@ module.exports = {
   ],
   rules: {
     'react/no-did-mount-set-state': 'error',
+    'react/jsx-curly-brace-presence': ['error', { children: 'always' }],
   },
 };
