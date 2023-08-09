@@ -3,7 +3,11 @@ module.exports = {
   env: {
     'vitest-globals/env': true,
   },
-  extends: ['plugin:vitest/recommended', 'plugin:vitest-globals/recommended'],
+  extends: [
+    'plugin:vitest/recommended',
+    'plugin:vitest-globals/recommended',
+    'canonical/vitest',
+  ],
   rules: {
     'vitest/prefer-to-be': 'off',
   },

@@ -15,7 +15,7 @@ const spaceBeforeParenConfig = [
 ];
 
 module.exports = {
-  extends: ['plugin:prettier/recommended', 'prettier'],
+  extends: ['plugin:prettier/recommended', 'prettier', 'canonical/prettier'],
   plugins: ['prettier'],
 
   rules: {
