@@ -4,12 +4,13 @@ module.exports = {
     'vitest-globals/env': true,
   },
   extends: [
-    'plugin:vitest/recommended',
+    'plugin:vitest/all',
     'plugin:vitest-globals/recommended',
     'canonical/vitest',
   ],
   rules: {
     'vitest/prefer-to-be': 'off',
+    'vitest/no-skipped-tests': 'off', // fix outdated rule in upstream canonical config
   },
   overrides: [
     {
