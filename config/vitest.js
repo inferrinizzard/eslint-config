@@ -9,8 +9,12 @@ module.exports = {
     'canonical/vitest',
   ],
   rules: {
-    'vitest/prefer-to-be': 'off',
+    'vitest/no-hooks': 'off',
     'vitest/no-skipped-tests': 'off', // fix outdated rule in upstream canonical config
+    'vitest/prefer-lowercase-title': 'off',
+    'vitest/prefer-to-be': 'off',
+    'vitest/prefer-strict-equal': 'off',
+    'vitest/require-top-level-describe': 'error',
   },
   overrides: [
     {
